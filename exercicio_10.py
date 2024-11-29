@@ -1,7 +1,9 @@
 import math
+try:
+    raio_circulo = float(input("digite o raio: "))
 
-raio_circulo = float(input("digite o raio: "))
+    area_circulo = math.pi * (raio_circulo ** 2)
+except:
+    print("erro")
 
-area_circulo = math.pi * (raio_circulo ** 2)
-
-print(area_circulo)
+print(area_circulo) 
